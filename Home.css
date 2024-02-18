@@ -30,7 +30,7 @@
 
 .u-section-1 .u-image-1 {
   min-height: 642px;
-  background-image: url("images/406314095_360351153184157_6561601530312235852_n.jpg?rand=dda8");
+  background-image: url("images/406314095_360351153184157_6561601530312235852_n.jpg?rand=27c1");
   background-position: 49.52% 50%;
   --radius: 50px;
   --animation-custom_in-translate_x: 0px;
@@ -1017,7 +1017,17 @@
 .u-section-4 .u-text-1 {
   font-weight: 400;
   font-size: 4.5rem;
-  margin: 60px auto;
+  margin: 60px auto 0;
+}
+
+.u-section-4 .u-btn-1 {
+  --radius: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.875rem;
+  letter-spacing: 1px;
+  background-image: none;
+  margin: 30px auto 60px;
 }
 
 @media (max-width: 1199px) {

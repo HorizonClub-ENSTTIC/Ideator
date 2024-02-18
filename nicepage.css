@@ -3167,6 +3167,7 @@ html {
 body {
   height: auto;
   min-height: 100%;
+  overflow-y: clip;
 }
 body,
 aside,
@@ -18307,9 +18308,6 @@ p {
 .u-font-roboto-condensed.u-custom-font {
   font-family: 'Roboto Condensed', sans-serif !important;
 }
-.u-font-source-sans-pro.u-custom-font {
-  font-family: 'Source Sans Pro', sans-serif !important;
-}
 .u-font-oswald.u-custom-font {
   font-family: Oswald, sans-serif !important;
 }
@@ -21584,6 +21582,13 @@ a.pswp__share--download:hover {
 .animated.u-absolute-vcenter {
   
   --animation-custom_in-translate_y: -50% !important;
+}
+.u-animation-fixed {
+  position: fixed;
+}
+.u-animation-sticky {
+  position: sticky;
+  top: 0;
 }
 .u-cookies-consent {
   display: none;
